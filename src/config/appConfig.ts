@@ -1,6 +1,6 @@
 export const APP_CONFIG = {
-  name: 'ROKTO R DAKAT',
-  temporaryCodename: 'ROKTO R DAKAT',
+  name: 'A+B-O',
+  temporaryCodename: 'A+B-O',
   productCategory: 'Smart Blood-Bank Inventory & Demand Intelligence Platform',
   version: '0.1.0-alpha',
   networkName: 'Kolkata Regional Blood Network',
