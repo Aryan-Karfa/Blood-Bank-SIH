@@ -22,7 +22,7 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-[4px] bg-[#171817] flex items-center justify-center font-mono font-bold text-xs text-[#FFFFFF]">
-              RK
+              TF
             </div>
             <div>
               <div className="flex items-center gap-2 leading-none">
