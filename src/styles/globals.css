@@ -1,0 +1,72 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-primary);
+    font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: var(--color-bg-base);
+    color: var(--color-text-primary);
+    line-height: 1.5;
+  }
+
+  /* Prohibit drop shadows across the UI */
+  *, *::before, *::after {
+    box-shadow: none !important;
+  }
+
+  /* Restrained custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #EAE9E4;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #C9C8C2;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9C9A91;
+  }
+
+  /* Focus rings */
+  :focus-visible {
+    outline: 2px solid #171817;
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .font-mono-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .border-structural {
+    border-color: #C9C8C2;
+  }
+
+  .border-emphasis {
+    border-color: #9C9A91;
+  }
+}
