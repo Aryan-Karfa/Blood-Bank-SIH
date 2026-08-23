@@ -47,7 +47,7 @@ export const Header: React.FC = () => {
 
         <Link to="/" className="flex items-center gap-2.5 focus:outline-none">
           <div className="w-7 h-7 rounded-[4px] bg-[#171817] flex items-center justify-center font-mono font-bold text-xs text-[#FFFFFF]">
-            RK
+            TF
           </div>
           <div>
             <div className="flex items-center gap-1.5 leading-none">
