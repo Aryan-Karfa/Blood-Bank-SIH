@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="text-[10px] text-[#5D5E5A] leading-normal pt-1 border-t border-[#C9C8C2]/60">
-          <strong className="text-[#171817]">LEGAL &amp; CLINICAL DISCLAIMER:</strong> RAKTKOSH is a technical proof-of-concept prototype for hackathon demonstration. It is not a certified medical device and does not diagnose patients or make autonomous clinical decisions. AI-generated recommendations serve strictly as decision-support explanations. All physical allocations and inter-facility dispatches mandate human clinician authorization.
+          <strong className="text-[#171817]">LEGAL &amp; CLINICAL DISCLAIMER:</strong> TRANSFUSE is a technical proof-of-concept prototype for hackathon demonstration. It is not a certified medical device and does not diagnose patients or make autonomous clinical decisions. AI-generated recommendations serve strictly as decision-support explanations. All physical allocations and inter-facility dispatches mandate human clinician authorization.
         </div>
       </div>
     </footer>
