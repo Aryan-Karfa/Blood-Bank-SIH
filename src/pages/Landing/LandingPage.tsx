@@ -381,7 +381,7 @@ export const LandingPage: React.FC = () => {
       <footer className="w-full bg-[#EAE9E4] border-t border-[#C9C8C2] px-6 py-4 text-xs text-[#3D3E3A]">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-3">
-            <span className="font-mono font-bold text-[#BB0A1E]">RAKTKOSH DEMO</span>
+            <span className="font-mono font-bold text-[#BB0A1E]">TRANSFUSE DEMO</span>
             <span>•</span>
             <span className="text-[11px] text-[#171817]">Smart Blood-Bank Inventory &amp; Demand Intelligence</span>
           </div>
