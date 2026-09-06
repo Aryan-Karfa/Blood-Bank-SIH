@@ -1,0 +1,82 @@
+{
+  "testSuiteVersion": "TRANSFUSE-BENCHMARK-v1.0",
+  "executedAt": "2026-09-06T11:23:18.161Z",
+  "environment": {
+    "platform": "win32",
+    "nodeVersion": "v22.16.0",
+    "appVersion": "0.1.0",
+    "gitCommit": "Not a git repository (standalone package)",
+    "framework": "React 18.3.1 + Vite 5.4.6 + Zustand 4.5.5"
+  },
+  "counts": {
+    "totalScenarios": 30,
+    "passedScenarios": 30,
+    "failedScenarios": 0,
+    "facilities": 2,
+    "inventoryRecords": 16,
+    "requests": 8,
+    "forecastRecords": 3,
+    "riskRecords": 3,
+    "recommendations": 2,
+    "transfers": 2,
+    "inventoryLots": 9,
+    "demandDataPoints": 10
+  },
+  "kpis": {
+    "shortageRisk": {
+      "truePositives": 6,
+      "falsePositives": 0,
+      "trueNegatives": 2,
+      "falseNegatives": 0,
+      "accuracy": 100,
+      "precision": 100,
+      "recall": 100,
+      "f1Score": 100
+    },
+    "expiryRisk": {
+      "truePositives": 4,
+      "falsePositives": 0,
+      "trueNegatives": 1,
+      "falseNegatives": 0,
+      "accuracy": 100,
+      "precision": 100,
+      "recall": 100,
+      "f1Score": 100
+    },
+    "recommendationFeasibility": {
+      "totalEvaluated": 13,
+      "feasibleCount": 12,
+      "invalidCount": 1,
+      "feasibilityRatePercent": 92.3,
+      "invalidRatePercent": 7.7
+    },
+    "safetyBlocking": {
+      "totalUnsafeAttempts": 5,
+      "blockedCount": 5,
+      "unsafeExecutionCount": 0,
+      "blockingRatePercent": 100
+    },
+    "humanInTheLoop": {
+      "totalApplicableActions": 12,
+      "enforcedCount": 12,
+      "enforcementRatePercent": 100
+    },
+    "decisionSupportLatency": {
+      "meanTransfuseTimeMs": 0.0423,
+      "medianTransfuseTimeMs": 0.0338,
+      "measuredTrials": 10,
+      "manualBaselineStatus": "Manual baseline not directly measured with human trials; no valid percentage reduction claim is made."
+    },
+    "machineLearningStatus": {
+      "modelPresent": false,
+      "declaration": "Current repository does not contain a validated trained forecasting model.",
+      "logicType": "Deterministic arithmetic demand forecasting heuristic"
+    },
+    "geminiLlmStatus": {
+      "liveApiConnected": false,
+      "declaration": "GEMINI CURRENTLY SIMULATED / NON-PRODUCTION",
+      "operationalModificationPermitted": false,
+      "bypassDeterministicLogicPermitted": false
+    }
+  }
+}
