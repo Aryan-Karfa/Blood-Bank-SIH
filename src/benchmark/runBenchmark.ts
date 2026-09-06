@@ -2,18 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import { performance } from 'perf_hooks';
 import {
-  InventoryItem,
-  InventoryLot,
-  BloodRequest,
-  DemandDataPoint,
-  RiskItem,
-  Network,
-  CandidateAction,
-  GeminiRecommendationResponse,
-  ScenarioId,
-  GeminiDecisionContext,
-} from '../types';
-import {
   MOCK_HOSPITALS,
   MOCK_INVENTORY,
   MOCK_INVENTORY_LOTS,
@@ -24,7 +12,6 @@ import {
   MOCK_RISKS,
   MOCK_RECOMMENDATIONS,
   MOCK_TRANSFERS,
-  deriveInventoryStatus,
 } from '../data';
 import {
   evaluateOperationalRisks,
@@ -35,7 +22,6 @@ import {
   buildGeminiDecisionContext,
 } from '../intelligence';
 import { validateAiResponse } from '../services/aiValidator';
-import { executeAiDecisionSupport } from '../services/aiGateway';
 import { useAppStore } from '../store/useAppStore';
 
 // Scenario Record Schema matching Prompt specifications
@@ -1225,7 +1211,7 @@ export async function runCompleteBenchmark() {
   const strictlyEnforced = hitlScenarios.filter((s) => {
     // If transferExecuted is true, human approval was explicitly passed.
     // If transferExecuted is false, no transfer occurred without approval.
-    return true;
+    return s.transferExecuted ? s.pass : !s.transferExecuted;
   }).length;
   const humanApprovalEnforcementRate = (strictlyEnforced / totalHitlCases) * 100;
 

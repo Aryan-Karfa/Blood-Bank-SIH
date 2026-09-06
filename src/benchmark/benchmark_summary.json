@@ -1,6 +1,6 @@
 {
   "testSuiteVersion": "TRANSFUSE-BENCHMARK-v1.0",
-  "executedAt": "2026-09-06T11:23:18.161Z",
+  "executedAt": "2026-09-06T11:42:44.002Z",
   "environment": {
     "platform": "win32",
     "nodeVersion": "v22.16.0",
@@ -62,8 +62,8 @@
       "enforcementRatePercent": 100
     },
     "decisionSupportLatency": {
-      "meanTransfuseTimeMs": 0.0423,
-      "medianTransfuseTimeMs": 0.0338,
+      "meanTransfuseTimeMs": 0.0462,
+      "medianTransfuseTimeMs": 0.0384,
       "measuredTrials": 10,
       "manualBaselineStatus": "Manual baseline not directly measured with human trials; no valid percentage reduction claim is made."
     },
