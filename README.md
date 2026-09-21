@@ -268,4 +268,4 @@ vercel --prod
 > **100% SYNTHETIC DATA BOUNDARY**  
 > All patient IDs (`PAT-SYN-xxx`), order codes (`REQ-SYN-xxx`), transfer records (`TR-SYN-xxx`), lot batches (`LOT-SYN-xxx`), hospital names, and geographic coordinates are entirely fictional and synthetically generated for demonstration.  
 >  
-> **NON-CLINICAL DISCLAIMER:** RAKTKOSH is a technical proof-of-concept prototype. It is not a certified medical device and must not be used for clinical transfusion authorization or autonomous dispatch in production healthcare settings.
+> **NON-CLINICAL DISCLAIMER:** TRANSFUSE is a technical proof-of-concept prototype. It is not a certified medical device and must not be used for clinical transfusion authorization or autonomous dispatch in production healthcare settings.
