@@ -2,7 +2,7 @@
 
 > **DEMO / HACKATHON PROTOTYPE SPECIFICATION**  
 > **Target Event:** Smart India Hackathon 2026  
-> **Official Product Name:** TBD (RAKTKOSH is a temporary demonstration codename)  
+> **Official Product Name:** TRANSFUSE 
 > **Deployment Status:** Production-Hardened Client-Side SPA + Deterministic Intelligence + Gemini Decision Support
 
 ---
