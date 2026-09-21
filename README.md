@@ -1,4 +1,4 @@
-# RAKTKOSH — Smart Blood-Bank Inventory & Demand Intelligence
+# TRANSFUSE — Smart Blood-Bank Inventory & Demand Intelligence
 
 > **DEMO / HACKATHON PROTOTYPE SPECIFICATION**  
 > **Target Event:** Smart India Hackathon 2026  
@@ -9,7 +9,7 @@
 
 ## 1. Executive Overview
 
-**RAKTKOSH** is a regional-scale smart blood-bank inventory management and demand intelligence platform. It interconnects disparate hospital blood banks (e.g., Central City General Hospital and Metropolitan Medical Center) into a coordinated supply network.
+**TRANSFUSE** is a regional-scale smart blood-bank inventory management and demand intelligence platform. It interconnects disparate hospital blood banks (e.g., Central City General Hospital and Metropolitan Medical Center) into a coordinated supply network.
 
 The system addresses critical operational failure modes in transfusion logistics:
 1. **Unanticipated Emergency Depletion:** Multi-trauma incidents draining O-negative red cell reserves before routine restocking cycles.
@@ -163,7 +163,7 @@ FRONTEND/
 
 ### Installation
 ```bash
-# 1. Clone repository and navigate to frontend directory
+# 1. Clone the repository and navigate to the frontend directory
 cd "FRONTEND"
 
 # 2. Install dependencies
